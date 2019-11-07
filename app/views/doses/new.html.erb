@@ -1,0 +1,9 @@
+<div class="container mt-4">
+<h1>Doses</h1>
+
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+  <%= f.input :description %>
+  <%= f.association :ingredient, collection: Ingredient.order(:name) %>
+  <%= f.submit "Add dose", class: "btn btn-primary"%>
+<% end %>
+</div>
