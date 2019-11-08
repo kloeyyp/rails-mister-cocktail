@@ -1,0 +1,9 @@
+<%= simple_form_for(@cocktail) do |f| %>
+  <!-- [...] -->
+  <%= f.input :name %>
+  <%= f.association :ingredients %>
+  <%= f.input :photo %>
+  <%= f.input :photo_cache, as: :hidden %>
+  <%= f.submit "Create and shake", class: "btn btn-outline-warning"%>
+  <!-- [...] -->
+<% end %>

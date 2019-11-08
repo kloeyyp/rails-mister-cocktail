@@ -2,11 +2,10 @@
 <div class="m-4">
 <div class="container">
 <h1>What cocktail do you want to create?</h1>
-<%= simple_form_for [@cocktail] do |f| %>
-  <%= f.input :name %>
-  <%= f.association :ingredients %>
-  <%= f.submit "Create and shake", class: "btn btn-outline-warning"%>
-<% end %>
+
+
+<%= render "form" %>
+
 </div>
 </div>
 
