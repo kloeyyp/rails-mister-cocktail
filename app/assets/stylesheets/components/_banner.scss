@@ -1,0 +1,26 @@
+/* app/assets/stylesheets/components/_banner.scss */
+.home-banner {
+  background-image: url('https://images.pexels.com/photos/1134166/pexels-photo-1134166.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  // position: relative;
+  height: 600px;
+  color: yellow;
+  text-align: center;
+  padding-top: 40vh;
+  h1 {
+    font-weight: lighter;
+  }
+}
+
+.bg-black {
+  background-color: rgba(0,0,0,0.6);
+  padding: 5px;
+}
+
+// .layer {
+//    background-color: rgba(0, 0, 0, 0.6);
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+// }

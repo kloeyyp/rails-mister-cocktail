@@ -1,0 +1,68 @@
+.card-cocktail {
+    position: relative;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+
+.card-cocktail .card-info {
+    position: absolute;
+    font-weight: 300;
+    line-height: 2em;
+    font-size: 0.8em;
+    bottom: -2em;
+    width: 100%;
+    background: linear-gradient(#00000000, #000000cc);
+    z-index: 2;
+    transition: 0.3s bottom;
+}
+
+.card-cocktail .card-cocktail-bg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+  }
+
+.grid-cards {
+    display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.card-category a {
+  color: white;
+  text-decoration: none;
+}
+
+.card-category a:hover {
+  color: yellow;
+  text-decoration: none;
+  transition: 0.5s;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
